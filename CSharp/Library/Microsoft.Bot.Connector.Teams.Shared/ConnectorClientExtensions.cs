@@ -37,6 +37,7 @@ namespace Microsoft.Bot.Connector
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
+    using Microsoft.Bot.Schema;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Linq;
     using Teams;
@@ -71,6 +72,7 @@ namespace Microsoft.Bot.Connector
             ChannelAccount user,
             string tenantId)
         {
+            
             return conversationClient.CreateConversation(new ConversationParameters()
             {
                 Bot = bot,

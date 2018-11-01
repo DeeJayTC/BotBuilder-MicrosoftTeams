@@ -9,11 +9,19 @@
   <Import Project="..\Microsoft.Bot.Connector.Teams.Shared\Microsoft.Bot.Connector.Teams.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
+    <PackageReference Include="AdaptiveCards" Version="1.1.0" />
+    <PackageReference Include="Autofac" Version="4.8.1" />
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="1.1.2" />
-    <PackageReference Include="Microsoft.Bot.Connector.Common" Version="3.6.0-alpha" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="1.1.1" />
+    <PackageReference Include="Polly" Version="6.1.0" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta001" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Bot.Connector">
+      <HintPath>..\..\..\..\integrations-msteams\TWMSTeams\packages\Microsoft.Bot.Builder.3.9.0.0\lib\net46\Microsoft.Bot.Connector.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <PropertyGroup>

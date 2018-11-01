@@ -31,7 +31,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)TenantFiltering.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)App.config" />
     <None Include="$(MSBuildThisFileDirectory)generateClient.cmd" />
     <None Include="$(MSBuildThisFileDirectory)Swagger\TeamsAPI.json" />
   </ItemGroup>

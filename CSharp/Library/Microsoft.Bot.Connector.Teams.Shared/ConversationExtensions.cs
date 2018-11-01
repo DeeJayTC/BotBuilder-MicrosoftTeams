@@ -41,6 +41,7 @@ namespace Microsoft.Bot.Connector.Teams
     using System.Text;
     using System.Threading.Tasks;
     using Microsoft.Bot.Connector.Teams.Models;
+    using Microsoft.Bot.Schema;
     using Microsoft.Rest;
     using Newtonsoft.Json.Linq;
 
